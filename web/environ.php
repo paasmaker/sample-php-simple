@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head><title>Hello, world!</title></head>
+  <head><title>Environment</title></head>
   <body>
     <pre><?
 
