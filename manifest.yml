@@ -28,13 +28,6 @@ instances:
         parameters:
           commands:
             - echo "startup" > web/startup.txt
-    placement:
-      plugin: paasmaker.placement.default
-    hostnames:
-      - php-simple.local.paasmaker.net
-    crons:
-      - runspec: '* * * * *'
-        uri: /environ.php
 
 services:
   - name: variables
