@@ -1,5 +1,8 @@
-<pre>
-<?
+<!DOCTYPE html>
+<html>
+  <head><title>Hello, world!</title></head>
+  <body>
+    <pre><?
 
 foreach( $_SERVER as $key => $value )
 {
@@ -16,5 +19,6 @@ foreach( $_SERVER as $key => $value )
 	}
 }
 
-?>
-</pre>
+?></pre>
+  </body>
+</html>
